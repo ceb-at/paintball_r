@@ -1,0 +1,32 @@
+"Vertexlitgeneric"
+{
+	
+    $basetexture                        "models\weapons\v_models\Glock17\glock"
+    $bumpmap                            "models\weapons\v_models\Glock17\glock_norm"
+	
+	$selfillum                  1
+	$selfillummask                      "models\weapons\v_models\Glock17\glock_selfillum"
+	
+	$phong                      1
+	$phongexponent              22
+	$phongboost                 0.05
+	$phongfresnelranges         "[5 10 10]"
+	$phongtint                  "[1.1 0.9 1]"
+	"$phongalbedotint"		"1"
+	"$phongalbedoboost" 	"48"
+	$phongexponenttexture               "models\weapons\v_models\Glock17\glock_gloss"
+//	$basetexturealphaphongmask  1
+
+	$halflambert                1
+
+	$envmap                     "env_cubemap"	
+	$envmapfresnel              "4"
+	$envmaptint                 "[ 0.024 0.025 0.026 ]"
+
+	$rimlight "1"
+	$rimlightexponent "14"
+	$rimmask "1"
+	$rimlightboost "0.65"
+
+	$nocull 		"1"
+}
